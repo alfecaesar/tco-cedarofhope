@@ -1,0 +1,137 @@
+// Variables
+
+$white: #FFFFFF;
+$darkpurple: #320047;
+$purple: #510072;
+$yellow: #f6b408;
+$orange: #f68e08;
+$tangerine: #f64b08;
+$lightblue: #28a7b0;
+$red: #c33817;
+$teal: #305d72;
+$lightyellow: #efbe00;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.montserrat-thin {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+}
+
+.montserrat-extralight {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+.montserrat-light {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.montserrat-medium {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.montserrat-semibold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.montserrat-extrabold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+
+.montserrat-black {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+.bg-purple {
+    background-color: $purple;
+}
+
+.bg-darkpurple {
+    background-color: $darkpurple;
+}
+
+.bg-white{
+    background-color: $white;
+}
+
+.bg-yellow{
+    background-color: $yellow;
+}
+
+.bg-orange{
+    background-color: $orange;
+}
+
+.bg-tangerine{
+    background-color: $tangerine;
+}
+
+.bg-hover-darkpurple {
+    &:hover {
+        background-color: $darkpurple;
+    }
+}
+
+.bg-hover-orange {
+    &:hover {
+        background-color: $orange;  
+    }
+}
+
+.hover-yellow{
+    &:hover{
+        color: $yellow;
+    }
+}
+
+.hover-white{
+    &:hover{
+        color: $white;
+    }
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+} 
+
+.text-color-white{
+    color: $white;
+}
+
+.text-color-purple{
+    color: $purple;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.no-border{
+    border: 0 !important;
+}
