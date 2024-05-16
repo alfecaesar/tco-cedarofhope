@@ -19,25 +19,33 @@
 <header>
     <div class="topbar bg-darkpurple">
         <div class="container">
-            <div class="row justify-content-end py-1">
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-left text-sm-end">
-                    <a href="tel:+1-855-766-3835" class="text-color-white montserrat-regular text-decoration-none hover-yellow">+1 855-766-3835</a>
-                </div> 
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex justify-content-end">
-                    <a href="#" class="text-decoration-none text-color-white me-3 hover-yellow">
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                    </a>
-                    <a href="#" class="text-decoration-none text-color-white me-3 hover-yellow">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="text-decoration-none text-color-white me-3 hover-yellow">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="#" class="text-decoration-none text-color-white me-0 hover-yellow">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
+            <div class="row">
+                <div class="col-6 col-sm-9 col-lg-12 py-1 d-flex d-lg-block align-items-center">
+                    <div class="row justify-content-lg-end">
+                        <div class="col-auto col-lg-2 text-left text-lg-end">
+                            <a href="tel:+1-855-766-3835" class="text-color-white montserrat-regular text-decoration-none hover-yellow">+1 855-766-3835</a>
+                        </div> 
+                        <div class="col-auto col-lg-2 d-flex justify-content-sm-end">
+                            <a href="#" class="text-decoration-none text-color-white me-2 me-sm-3 hover-yellow">
+                                <i class="fa-brands fa-square-x-twitter"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none text-color-white me-2 me-sm-3 hover-yellow">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none text-color-white me-2 me-sm-3 hover-yellow">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none text-color-white me-0 hover-yellow">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 d-flex d-lg-none justify-content-end align-items-center py-1">
+                    <a class="nav-link text-color-purple montserrat-bold text-decoration-none bg-yellow text-uppercase bg-hover-orange hover-white py-1 px-1" href="#">Watch Live</a>
                 </div>
             </div>
+            
         </div>
     </div>
     <nav class="navbar navbar-expand-lg bg-purple py-2 py-sm-3 py-md-4">
@@ -82,7 +90,8 @@
             <div class="row">
                 <div class="col-md-12 mx-0 px-0">
                     <div class="banner-content">
-                        <img src="assets/img/banner-full-img.png" class="img-fluid" alt="Banner Image">
+                        <img src="assets/img/banner-full-img.png" class="w-100 d-none d-none d-sm-block" alt="Banner Image">
+                        <img src="assets/img/banner-full-img-mobile.png" class="w-100 d-block d-sm-none" alt="Banner Image">
                     </div>
                 </div>
             </div>
@@ -149,9 +158,15 @@
                     </a>
                 </div>
                 <div class="col-12 text-center mb-3">
-                    <p class="text-color-white mb-0 footer-address montserrat-regular"><a href="#" class="text-color-white hover-yellow text-decoration-none">1565 N 113th Ave Avondale, AZ 85392-3935</a> <br>
-                        Saturday 4:00 & 5:30 PM | Sunday 8:30 & 11:30 AM <br>
-                        <a href="#" class="text-color-white hover-yellow text-decoration-none">(623) 376-2444</a> | <a href="#" class="text-color-white hover-yellow text-decoration-none">(623) 875-9000</a></p>
+                    <p class="text-color-white mb-0 footer-address montserrat-regular">
+                        <a href="#" class="text-color-white hover-yellow text-decoration-none"><span class="d-block d-md-inline">1565 N
+                                113th Ave Avondale,</span> AZ 85392-3935</a> <br>
+                        <span class="d-block d-md-inline">Sunrise Service &bull; 6 AM</span> <span class="d-none d-md-inline">|</span> <span
+                            class="d-block d-md-inline">Church School &bull; 8 AM</span> <span class="d-none d-md-inline">|</span> <span
+                            class="d-block d-md-inline">Worship Service &bull; 11 AM</span>
+                        <span class="d-block"><a href="#" class="text-color-white hover-yellow text-decoration-none">(623) 376-2444</a> | <a href="#"
+                            class="text-color-white hover-yellow text-decoration-none">(623) 875-9000</a></span>
+                    </p>
                 </div>
                 <div class="col-12 d-flex justify-content-center mb-3">
                     <ul class="footer-nav d-flex justify-content-center mx-0 my-0">
@@ -176,7 +191,10 @@
                     </ul>
                 </div>
                 <div class="col-12 text-center">
-                    <p class="text-color-white mb-0 copyright-text montserrat-regular">© Copyright 2024 | All Rights Reserved <span class="d-none d-md-inline">|</span> <a href="#" class="d-block d-md-inline text-color-white hover-yellow text-decoration-none">The Church Online, LLC</a></p>
+                    <p class="text-color-white mb-0 copyright-text montserrat-regular"><span class="d-block d-md-inline">© Copyright
+                            2024</span> <span class="d-none d-md-inline">|</span> <span class="d-block d-md-inline">All Rights
+                            Reserved</span> <span class="d-none d-md-inline">|</span> <a href="https://www.thechurchonline.com/"
+                            class="d-block d-md-inline text-color-white hover-yellow text-decoration-none" target="_blank">The Church Online, LLC</a></p>
                 </div>
             </div>
         </div>
