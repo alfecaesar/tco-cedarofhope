@@ -28,6 +28,13 @@ body {
   padding: 0;
   margin: 0;
 
+  .banner-content{
+    .banner-text{
+      top:0;
+      left:0
+    }
+  }
+
   nav{
     &.navbar{
       .container{
@@ -207,6 +214,128 @@ body {
     h3{
       @media (max-width: 767px){
         font-size: 1rem;
+      }
+    }
+  }
+
+  #banner-area{
+    .container-fluid{
+      .banner-content{
+        .banner-text{
+          h1{
+            font-size: 4.5rem;
+            line-height: 4.5rem;
+            letter-spacing: 0.5rem;
+
+            @media (max-width: 1399px){
+              font-size: 3.5rem;
+              line-height: 3.5rem;
+            }
+
+            @media (max-width: 767px){
+              font-size: 2.5rem;
+              line-height: 2.5rem;
+              letter-spacing: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #content-area{
+    .container{
+      .row{
+        .row{
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+      p,
+      .content-box{
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+
+        @media (max-width: 767px){
+          font-size: 1rem;
+          line-height: 2rem;
+        }
+      }
+
+      h2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+
+        @media (max-width: 767px){
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+      }
+
+      p{
+        &:last-of-type{
+          margin-bottom: 0;
+        }
+      }
+
+      .icon{
+        font-size: 2rem;
+      }
+    }
+  }
+
+  #gcalendar{
+    *{
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+    h2{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    a{
+      color: $black;
+    }
+    .fc-header-toolbar{
+      @media (min-width:500px) and (max-width: 767px){
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .fc-toolbar-chunk{
+          &:nth-child(1){
+            order: 2;
+          }
+          &:nth-child(2){
+            order: 1;
+            flex: 0 0 100%;
+            
+            h2{
+              width: 100%;
+              text-align: center;
+            }
+          }
+          &:nth-child(3){
+            order: 3;
+          }
+        }
+      }
+      @media (max-width: 499px){
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .fc-toolbar-chunk{
+          &:nth-child(1){
+            order: 2;
+          }
+          &:nth-child(2){
+            order: 1;
+          }
+          &:nth-child(3){
+            order: 3;
+          }
+        }
       }
     }
   }

@@ -10,6 +10,8 @@ $lightblue: #28a7b0;
 $red: #c33817;
 $teal: #305d72;
 $lightyellow: #efbe00;
+$black: #010101;
+$gray: #ededed;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -92,6 +94,10 @@ $lightyellow: #efbe00;
     background-color: $tangerine;
 }
 
+.bg-gray{
+    background-color: $gray;
+}
+
 .bg-hover-darkpurple {
     &:hover {
         background-color: $darkpurple;
@@ -128,8 +134,16 @@ $lightyellow: #efbe00;
     color: $purple;
 }
 
+.text-color-black{
+    color: $black;
+}
+
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.text-italic {
+    font-style: italic;
 }
 
 .no-border{
