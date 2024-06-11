@@ -244,6 +244,16 @@ body {
   }
 
   #content-area{
+
+    &:not(.home){
+      .row > *{
+        @media (max-width: 575px){
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+      }
+    }
+
     .container{
       .row{
         .row{
